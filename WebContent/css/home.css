@@ -365,7 +365,7 @@ tr.header
 }
 .header.expand .sign:after{
   content:"-";
- } */
- thumbdiv {
+ } 
+/*  thumbdiv {
  width:550px; height:150px;border:1px solid grey;
- }
+ } */
