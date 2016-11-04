@@ -25,7 +25,7 @@ body
 }
 #table_detail
 {
- width:500px;
+ width:100%;
  text-align:left;
  border-collapse: collapse;
  color:#2E2E2E;
@@ -39,3 +39,5 @@ body
 {
  display:none;
 }
+
+

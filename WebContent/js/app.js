@@ -32,9 +32,9 @@ $('.header').click(function(){
     $(this).toggleClass('expand').nextUntil('tr.header').slideToggle(200);
 });
 
-$(document).ready(function() {
-
-  // Initialize the plugin
-  $('#my_popup').popup();
-
-});
+//$(document).ready(function() {
+//
+//  // Initialize the plugin
+//  $('#my_popup').popup();
+//
+//});

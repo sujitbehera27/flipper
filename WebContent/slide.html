@@ -1,19 +1,21 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="./css/table_style.css">
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
 
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 <script type="text/javascript">
 	function show_hide_row(row) {
 		$("#" + row).toggle();
+		//$("#" + row).toggle( "fold", 1000 );
+	//	$("#" + row).animate({height: "300px"});
 	}
 </script>
 </head>
 <body>
 	<div id="wrapper">
 
-		<table border=1 id="table_detail" align=left cellpadding=10>
+		<table border=1 id="table_detail" style="align:left;cellpadding=5px;">
 
 			<tr>
 				<th>Quicklook</th>
@@ -23,18 +25,37 @@
 			</tr>
 
 			<tr onclick="show_hide_row('hidden_row1');">
-				<td><img alt="" src="images/home1.jpg" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home1.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
 			</tr>
 			<tr id="hidden_row1" class="hidden_row">
-				<td colspan=4>Ankit is 25 years old and he is a computer
-					programmer he earns 60000 per month</td>
+				<td colspan=4>
+				<div class="container">
+					<div class="row" >
+						<div class="col-xs-6">
+						<img alt="" src="images/home1.jpg" style="height: 170px;width: 200px;">
+						</div>
+						
+							<div class="col-md-2">.col-md-1</div>
+							<div class="col-md-2">.col-md-1</div>
+							<div class="col-md-2">.col-md-1</div>
+							<div class="col-md-2">.col-md-1</div>
+							
+										
+									
+						
+					</div>
+				</div>
+				
+				
+				
+				</td>
 			</tr>
 
 			<tr onclick="show_hide_row('hidden_row2');">
-				<td><img alt="" src="images/home2.jpg" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home2.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
@@ -45,7 +66,7 @@
 			</tr>
 
 			<tr onclick="show_hide_row('hidden_row3');">
-				<td><img alt="" src="images/home3.png" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home3.png" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
@@ -56,7 +77,7 @@
 			</tr>
 
 			<tr onclick="show_hide_row('hidden_row4');">
-				<td><img alt="" src="images/home4.jpg" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home4.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
@@ -67,7 +88,7 @@
 			</tr>
 
 			<tr onclick="show_hide_row('hidden_row5');">
-				<td><img alt="" src="images/home6.jpg" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home6.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
@@ -77,7 +98,7 @@
 					he earns 3,50000 per month</td>
 			</tr>
 			<tr onclick="show_hide_row('hidden_row6');">
-				<td><img alt="" src="images/home7.jpg" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home7.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
@@ -87,7 +108,7 @@
 					he earns 3,50000 per month</td>
 			</tr>
 			<tr onclick="show_hide_row('hidden_row7');">
-				<td><img alt="" src="images/home8.jpg" style="height: 70px;width: 90px;"></td>
+				<td><img alt="" src="images/home8.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
 				<td>141 behem street, woodbridge</td>
 				<td>$135,000</td>
 				<td>3 Bed, 2 Bath, Backyard</td>
@@ -96,18 +117,20 @@
 				<td colspan=4>Mukesh is 40 years old and he is chief executive
 					he earns 3,50000 per month</td>
 			</tr>
+			<tr onclick="show_hide_row('hidden_row8');">
+				<td><img alt="" src="images/home10.jpg" style="height: 60px;width: 80px;padding:2px;"></td>
+				<td>141 behem street, woodbridge</td>
+				<td>$135,000</td>
+				<td>3 Bed, 2 Bath, Backyard</td>
+			</tr>
+			<tr id="hidden_row8" class="hidden_row">
+				<td colspan=4>Mukesh is 40 years old and he is chief executive
+					he earns 3,50000 per month</td>
+			</tr>
 
 		</table>
 
 	</div>
-	<div id="popup1" class="overlay">
-	<div class="popup">
-		<h2>Here i am</h2>
-		<a class="close" href="#">×</a>
-		<div class="content">
-			Thanks for pop me out of that button, but now i'm done so you can close this window.
-		</div>
-	</div>
-</div>
+	
 </body>
 </html>
