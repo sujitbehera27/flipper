@@ -29,11 +29,22 @@ body
  text-align:left;
  border-collapse: collapse;
  color:#2E2E2E;
- border:#A4A4A4;
+ border:black;
 }
 #table_detail tr:hover
 {
  background-color:#F2F2F2;
+}
+#table_detail td
+{
+	border:0;
+ /* border-left-color: white; */
+}
+#table_detail th
+{
+	border:0;
+	background-color: rgba(0, 128, 0, 0.18);
+ /* border-left-color: white; */
 }
 #table_detail .hidden_row
 {
