@@ -347,9 +347,9 @@ form .row:first-child .floating-label-form-group {
 	text-shadow: none;
 }
 
-.carousel-control.left span {
+/* .carousel-control.left span {
 	padding: 15px;
-}
+} */
 
 .carousel-control.right span {
 	padding: 15px;
@@ -361,7 +361,7 @@ form .row:first-child .floating-label-form-group {
 .carousel-control .icon-next {
 	position: absolute;
 	top: 45%;
-	z-index: 5;
+	/* z-index: 5; */
 	display: inline-block;
 }
 
@@ -428,3 +428,4 @@ form .row:first-child .floating-label-form-group {
     border-color: #fff;
 }
  } */
+ 
