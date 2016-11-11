@@ -432,3 +432,7 @@ form .row:first-child .floating-label-form-group {
 single-checkbox {
 	
 }
+.modal {
+    
+    left: -350px;
+}
