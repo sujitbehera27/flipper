@@ -272,7 +272,7 @@ section {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: .5em;
+ /*  padding-bottom: .5em; */
   border-bottom: 1px solid #f2f2f9; }
   .floating-label-form-group input,
   .floating-label-form-group textarea {
