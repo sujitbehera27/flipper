@@ -71,7 +71,7 @@
       .flat-blue .navbar.navbar-inverse .navbar-breadcrumb li a {
         color: #FFF; }
     .flat-blue .navbar.navbar-inverse .navbar-nav > li {
-      border-left: 1px solid #363c46; }
+      border-left: 0px solid #363c46; }
       .flat-blue .navbar.navbar-inverse .navbar-nav > li > a {
         color: #FFF; }
     .flat-blue .navbar.navbar-inverse .navbar-nav > li:hover > a {
